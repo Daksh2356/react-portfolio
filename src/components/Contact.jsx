@@ -7,6 +7,8 @@ const Contact = () => {
     event.preventDefault();
     // form submission logic here
     // Example: console.log('Form submitted!');
+    alert("Thanks for filling the form");
+    window.location.reload();
   };
 
   return (
