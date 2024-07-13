@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.57d4744e.css",
-    "main.js": "/portfolio-website/static/js/main.d301dcdb.js",
-    "static/media/bookmyshow.png": "/portfolio-website/static/media/bookmyshow.8ba6dda351c7b69c8896.png",
-    "static/media/profile.jpeg": "/portfolio-website/static/media/profile.f104a5223d3a164fb2f6.jpeg",
-    "static/media/solana.png": "/portfolio-website/static/media/solana.446ef1d471d10e3e8c43.png",
-    "static/media/zomato.png": "/portfolio-website/static/media/zomato.b1b455b0397af3b357b5.png",
-    "static/media/bcg_rksmbk.png": "/portfolio-website/static/media/bcg_rksmbk.e2fd91535fc482e71984.png",
-    "static/media/taskmngmnt.png": "/portfolio-website/static/media/taskmngmnt.633a5db924279287c14b.png",
-    "index.html": "/portfolio-website/index.html",
-    "main.57d4744e.css.map": "/portfolio-website/static/css/main.57d4744e.css.map",
-    "main.d301dcdb.js.map": "/portfolio-website/static/js/main.d301dcdb.js.map"
+    "main.css": "/react-portfolio/static/css/main.57d4744e.css",
+    "main.js": "/react-portfolio/static/js/main.2c645c61.js",
+    "static/media/bookmyshow.png": "/react-portfolio/static/media/bookmyshow.8ba6dda351c7b69c8896.png",
+    "static/media/profile.jpeg": "/react-portfolio/static/media/profile.f104a5223d3a164fb2f6.jpeg",
+    "static/media/solana.png": "/react-portfolio/static/media/solana.446ef1d471d10e3e8c43.png",
+    "static/media/zomato.png": "/react-portfolio/static/media/zomato.b1b455b0397af3b357b5.png",
+    "static/media/bcg_rksmbk.png": "/react-portfolio/static/media/bcg_rksmbk.e2fd91535fc482e71984.png",
+    "static/media/taskmngmnt.png": "/react-portfolio/static/media/taskmngmnt.633a5db924279287c14b.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.57d4744e.css.map": "/react-portfolio/static/css/main.57d4744e.css.map",
+    "main.2c645c61.js.map": "/react-portfolio/static/js/main.2c645c61.js.map"
   },
   "entrypoints": [
     "static/css/main.57d4744e.css",
-    "static/js/main.d301dcdb.js"
+    "static/js/main.2c645c61.js"
   ]
 }
