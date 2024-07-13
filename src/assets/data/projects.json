@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Zomato Clone",
+    "description": "Integrated Reacts, NodeJs Redux and TailwindCSS for a developing the website. It uses AWS S3 bucket service to upload and show images on the site. The CICD is ensured by using Gitlab. The site is deployed using AWS EC2 instance services.",
+    "github": "https://github.com/Daksh2356/zomato-clone",
+    "deployment": null,
+    "video": "https://drive.google.com/drive/folders/1YpXWEYIyg_i3KSKEcECLzY5Y2f_Zh1YG?usp=sharing",
+    "image": "zomato.png"
+  },
+  {
+    "title": "BookMyShow clone",
+    "description": "I built this project entirely using React.js for the frontend, TailwindCSS for the CSS and MovieDB API as a third party API for fetching data and displaying it on the website.",
+    "github": "https://github.com/Daksh2356/book-my-show-clone",
+    "deployment": "https://book-my-show-clone-kohl.vercel.app/",
+    "video": "https://drive.google.com/drive/folders/1oIqZHhVdxsA0NXjgK2S8oY4swoDqUpLs?usp=sharing",
+    "image": "bookmyshow.png"
+    
+  },
+  {
+    "title": "Task Management App",
+    "description": "I built this project using HTML and VanillaCSS and JavaScript. I used DOM to create the logic for the task management in this project.",
+    "github": "https://github.com/Daksh2356/task-management-app",
+    "deployment": "https://daksh2356.github.io/task-management-app/",
+    "video": "https://drive.google.com/file/d/1djSJw7GfCKlIZLhsEhKo5DQDOXHZzqyS/view?usp=drive_link",
+    "image": "taskmngmnt.png"
+    
+  },
+  {
+    "title": "BCG Shiksha App",
+    "description": "This was a team project. I contributed to the frontend of this project by making certain components on using React.js.",
+    "github": "https://github.com/dsc-gtbit/NGO-Siksha",
+    "deployment": "https://6901020269ngo928233929813001001010128.netlify.app/",
+    "image": "bcg_rksmbk.png"
+    
+  },
+  {
+    "title": "Solana React Website",
+    "description": "This was a team project. I contributed to the frontend of this project by making certain components such as Navbar, Timer and responsiveness of the website using React.js.",
+    "github": "https://github.com/dsc-gtbit/Solana-react",
+    "deployment": "https://hackerhouse-gdsc-gtbit.netlify.app/",
+    "video": "https://drive.google.com/file/d/1r9apUp-1LC7GcFkYwHPYvoEJNe-XYKJ8/view?usp=drive_link",
+    "image":"solana.png"
+    
+  }
+ 
+]
