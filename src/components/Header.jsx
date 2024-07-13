@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
-    <header className="bg-blue-500 text-white px-5 py-3 flex items-center justify-between">
+    <header className="fixed top-0 left-0 h-20 w-full bg-blue-500 text-white px-5 py-3 flex items-center justify-between shadow-md z-50">
       <h1 className='text-3xl font-bold'>Daksh Makhija</h1>
       <nav>
         <ul className="flex space-x-8">

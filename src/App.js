@@ -12,21 +12,23 @@ const App = () => {
   return (
     <Router>
       <Header />
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <About />
-              <Projects />
-              <Experience />
-              <Education/>
-              <Skills />
-              <Contact/>
-            </>
-          }
-        />
-      </Routes>
+      <div className="pt-20"> 
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <About />
+                <Projects />
+                <Experience />
+                <Education/>
+                <Skills />
+                <Contact/>
+              </>
+            }
+          />
+        </Routes>
+      </div>
     </Router>
   );
 };

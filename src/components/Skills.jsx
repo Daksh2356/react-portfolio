@@ -30,7 +30,7 @@ const Skills = () => {
                     className="absolute inset-0 bg-blue-500 rounded-full hover:w-full transition-width duration-500 "
                     style={{ width: `${skill.percentage}%` }}
                   ></div>
-                  <p className="cursor-pointer absolute top-0 right-0 mr-2 text-xs font-bold text-gray-700 opacity-0 hover:opacity-100 transition-opacity duration-300">
+                  <p className="sm:cursor-pointer absolute top-0 right-0 mr-2 text-xs font-bold text-gray-700 opacity-0 hover:opacity-100 transition-opacity duration-300">
                     {skill.percentage}%
                   </p>
                 </div>
