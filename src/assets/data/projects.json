@@ -1,5 +1,13 @@
 [
   {
+    "title": "Grab Food Scraper",
+    "description": "This web scraper utilizes BeautifulSoup and threading to efficiently gather restaurant names, cuisines, ratings, delivery times, distances, promotional offers, notices, images, and availability status. The scraped data is saved in both JSON and gzip-compressed ndjson formats for easy analysis and storage.",
+    "github": "https://github.com/Daksh2356/grab-food-scraper",
+    "deployment": null,
+    "video": "",
+    "image": "food_scraper.png"
+  },
+  {
     "title": "Zomato Clone",
     "description": "Integrated Reacts, NodeJs Redux and TailwindCSS for a developing the website. It uses AWS S3 bucket service to upload and show images on the site. The CICD is ensured by using Gitlab. The site is deployed using AWS EC2 instance services.",
     "github": "https://github.com/Daksh2356/zomato-clone",

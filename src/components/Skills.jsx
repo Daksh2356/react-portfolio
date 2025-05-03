@@ -3,6 +3,8 @@ import { Element } from 'react-scroll';
 
 const Skills = () => {
   const skills = [
+    { name: 'Java', percentage: 95 },
+    { name: 'Python', percentage: 90 },
     { name: 'HTML', percentage: 95 },
     { name: 'CSS', percentage: 95 },
     { name: 'JavaScript', percentage: 85 },
@@ -17,20 +19,20 @@ const Skills = () => {
 
   return (
     <Element name="skills">
-      <section id="skills" className="py-16 px-24">
-        <div className="container mx-auto px-4">
+      <section id="skills" className="py-16 px-24 md:px-8 lg:px-12">
+        <div className="container mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12">Skills</h2>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {skills.map((skill, index) => (
               <div key={index} className="flex items-center mb-4">
-                <p className="w-24">{skill.name}:</p>
-                <div className="relative w-64 h-2 bg-gray-300 rounded-full">
+                <p className="w-24">{skill.name} :</p>
+                <div className="relative flex items-center flex-grow mx-2 h-4 bg-gray-300 rounded-full overflow-hidden">
                   <div
-                    className="absolute inset-0 bg-blue-500 rounded-full hover:w-full transition-width duration-500 "
+                    className="absolute inset-0 bg-blue-500 rounded-full transition-width duration-500 "
                     style={{ width: `${skill.percentage}%` }}
                   ></div>
-                  <p className="sm:cursor-pointer absolute top-0 right-0 mr-2 text-xs font-bold text-gray-700 opacity-0 hover:opacity-100 transition-opacity duration-300">
+                  <p className="sm:cursor-pointer absolute top-0 right-0 mr-2 text-xs font-extrabold text-gray-700 opacity-0 hover:opacity-100 transition-opacity duration-300">
                     {skill.percentage}%
                   </p>
                 </div>
