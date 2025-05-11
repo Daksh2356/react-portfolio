@@ -3,18 +3,18 @@ import { Element } from 'react-scroll';
 
 const Skills = () => {
   const skills = [
-    { name: 'Java', percentage: 95 },
-    { name: 'Python', percentage: 90 },
     { name: 'HTML', percentage: 95 },
     { name: 'CSS', percentage: 95 },
-    { name: 'JavaScript', percentage: 85 },
-    { name: 'React', percentage: 80 },
-    { name: 'Node', percentage: 80 },
-    { name: 'MongoDB', percentage: 75 },
+    { name: 'JavaScript', percentage: 90 },
+    { name: 'Java', percentage: 90 },
+    { name: 'React', percentage: 90 },
+    { name: 'Node', percentage: 85 },
+    { name: 'Python', percentage: 85 },
     { name: 'SQL', percentage: 85 },
-    { name: 'AWS', percentage: 70 },
     { name: 'Flutter', percentage: 80 },
     { name: 'Firebase', percentage: 80 },
+    { name: 'MongoDB', percentage: 75 },
+    { name: 'AWS', percentage: 75 },
   ];
 
   return (
@@ -29,7 +29,7 @@ const Skills = () => {
                 <p className="w-24">{skill.name} :</p>
                 <div className="relative flex items-center flex-grow mx-2 h-4 bg-gray-300 rounded-full overflow-hidden">
                   <div
-                    className="absolute inset-0 bg-blue-500 rounded-full transition-width duration-500 "
+                    className="absolute inset-0 bg-blue-500 rounded-full transition-width duration-500 hover:bg-blue-700 "
                     style={{ width: `${skill.percentage}%` }}
                   ></div>
                   <p className="sm:cursor-pointer absolute top-0 right-0 mr-2 text-xs font-extrabold text-gray-700 opacity-0 hover:opacity-100 transition-opacity duration-300">

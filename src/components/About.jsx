@@ -18,18 +18,18 @@ const About = () => {
         </div>
         <div className="w-full md:w-1/2">
           <h1 className="text-3xl font-bold text-center mb-4">About Me</h1>
-          <div className="text-lg">
+          <div className="text-lg text-justify">
             <ul className="list-disc pl-8 mt-4">
               <li>
-                I am a <span className="font-bold italic">Web Developer</span>{" "}
-                with a passion for software development and project work.
+                I am a <span className="font-bold italic">Full Stack Web Developer</span>{" "}
+                with a passion for software engineering and project work.
               </li>
               <li>
                 Proficient in{" "}
                 <span className="font-bold italic">
                   various programming languages
                 </span>{" "}
-                including C++, Java, Python, HTML, CSS, JavaScript, SQL, and
+                including C++, Java, Python, JavaScript, TypeScript, HTML, CSS, SQL and
                 Dart.
               </li>
               <li>
@@ -40,7 +40,7 @@ const About = () => {
           </div>
             <div className="pt-8 text-center">
               <a
-                href="https://drive.google.com/file/d/18W-LLVv4RQG9IVy60l7nNQ_x454N3ipD/view?usp=sharing"
+                href="https://drive.google.com/file/d/1UEsQ95R7sx361zEw7NXy62FPNGf8XD1f/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
